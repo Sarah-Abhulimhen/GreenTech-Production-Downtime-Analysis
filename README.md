@@ -7,46 +7,11 @@
 
 ---
 
-## Table of Contents
-
-- Project Overview
-- Project Status
-- Business Problem
-- Project Objectives
-- Key Questions
-- Tools & Technologies
-- Data Preparation
-- Dataset Summary
-- Data Model
-- Dashboard Features
-- Dashboard Preview
-- Key Findings
-- Recommendations
-- Business Impact
-- Key Learnings
-- Skills Demonstrated
-- Repository Contents
-- Author
-- Connect With Me
-
----
-
 ## Project Overview
 
 This project analyzes production downtime at GreenTech Manufacturing using PostgreSQL and Microsoft Power BI. The objective was to identify the leading causes of production delays, evaluate their impact on operational efficiency, and provide actionable recommendations to improve manufacturing performance.
 
 Through the development of interactive dashboards and business intelligence solutions, the project enables stakeholders to gain visibility into downtime trends, operator performance, production bottlenecks, and scheduling inefficiencies.
-
----
-
-## Project Status
-
-| Attribute | Details |
-|----------|----------|
-| Status | Completed |
-| Duration | 6 Weeks |
-| Project Type | Manufacturing Analytics |
-| Organization | GreenTech Manufacturing (Amdari Internship) |
 
 ---
 
