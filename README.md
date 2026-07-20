@@ -82,15 +82,15 @@ Relationships were established within Power BI to support dynamic filtering and 
 
 ### Downtime Factor Overview
 
-![Dashboard Overview](dashboard-overview.png)
+![Dashboard Overview](Dashboard-overview.png)
 
 ### Duration Analysis
 
-![Duration Analysis](dashboard-duration-analysis.png)
+![Duration Analysis](Dashboard-duration-analysis.png)
 
 ### Operator Scheduling
 
-![Operator Scheduling](dashboard-operator-scheduling.png)
+![Operator Scheduling](Dashboard-operator-scheduling.png)
 
 ---
 
