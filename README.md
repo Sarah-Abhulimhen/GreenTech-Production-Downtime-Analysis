@@ -3,15 +3,50 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-yellow)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
 ![SQL](https://img.shields.io/badge/SQL-Querying-green)
-![DAX](https://img.shields.io/badge/DAX-Business%20Intelligence-success)
+![DAX](https://img.shields.io/badge/DAX-Business%20Intelligence-brightgreen)
+
+---
+
+## Table of Contents
+
+- Project Overview
+- Project Status
+- Business Problem
+- Project Objectives
+- Key Questions
+- Tools & Technologies
+- Data Preparation
+- Dataset Summary
+- Data Model
+- Dashboard Features
+- Dashboard Preview
+- Key Findings
+- Recommendations
+- Business Impact
+- Key Learnings
+- Skills Demonstrated
+- Repository Contents
+- Author
+- Connect With Me
 
 ---
 
 ## Project Overview
 
-This project analyzes production downtime at GreenTech Manufacturing using PostgreSQL and Microsoft Power BI. The analysis focuses on identifying the primary causes of production delays, evaluating their impact on operational efficiency, and providing data-driven recommendations to improve manufacturing performance.
+This project analyzes production downtime at GreenTech Manufacturing using PostgreSQL and Microsoft Power BI. The objective was to identify the leading causes of production delays, evaluate their impact on operational efficiency, and provide actionable recommendations to improve manufacturing performance.
 
-Through the development of interactive dashboards and business intelligence solutions, the project enables stakeholders to gain visibility into downtime trends, operator performance, and production bottlenecks.
+Through the development of interactive dashboards and business intelligence solutions, the project enables stakeholders to gain visibility into downtime trends, operator performance, production bottlenecks, and scheduling inefficiencies.
+
+---
+
+## Project Status
+
+| Attribute | Details |
+|----------|----------|
+| Status | Completed |
+| Duration | 6 Weeks |
+| Project Type | Manufacturing Analytics |
+| Organization | GreenTech Manufacturing (Amdari Internship) |
 
 ---
 
@@ -41,6 +76,18 @@ These issues negatively impacted productivity and increased operational costs. M
 
 ---
 
+## Key Questions
+
+- What are the primary causes of production downtime?
+- Which products experience the highest production delays?
+- How much production time is lost due to downtime?
+- Are downtime incidents primarily operator-related or process-related?
+- Which operators record the highest downtime frequencies?
+- How do scheduling patterns contribute to operational inefficiencies?
+- What opportunities exist to improve production efficiency?
+
+---
+
 ## Tools & Technologies
 
 - PostgreSQL
@@ -53,15 +100,29 @@ These issues negatively impacted productivity and increased operational costs. M
 
 ---
 
+## Data Preparation
+
+The dataset underwent several preparation steps prior to analysis:
+
+- Imported and queried production data using PostgreSQL.
+- Validated and standardized date/time fields.
+- Established relationships between production, downtime, products, and factors tables.
+- Created calculated columns and DAX measures.
+- Developed KPIs for downtime, delayed batches, and operational performance.
+- Applied data modeling techniques to support cross-dashboard filtering.
+
+---
+
 ## Dataset Summary
 
 | Metric | Value |
-|--------|------:|
+|-------|------:|
 | Production Batches | 645 |
 | Delayed Batches | 363 |
 | Downtime Incidents | 885 |
 | Distinct Downtime Factors | 13 |
 | Days Lost | 21.74 |
+| Days with Multiple Batch Assignments | 51 |
 
 ---
 
@@ -78,19 +139,48 @@ Relationships were established within Power BI to support dynamic filtering and 
 
 ---
 
+## Dashboard Features
+
+### Downtime Factor Overview
+
+- Downtime frequency analysis
+- Operator vs Non-Operator downtime analysis
+- Delayed batch percentages by operator
+- Downtime trend analysis
+
+### Duration Analysis
+
+- Planned vs Actual production time
+- Product-level production delays
+- Time spent by downtime factor
+- Operator downtime impact analysis
+
+### Operator Scheduling
+
+- Daily multiple batch assignments
+- Operator workload analysis
+- Scheduling pattern identification
+- Downtime frequency by operator
+
+---
+
 ## Dashboard Preview
 
 ### Downtime Factor Overview
 
-![Dashboard Overview](Dashboard-overview.png)
+![Downtime Dashboard](Dashboard-overview.png)
 
 ### Duration Analysis
 
-![Duration Analysis](Dashboard-duration-analysis.png)
+![Duration Analysis Dashboard](Dashboard-duration-analysis.png)
 
 ### Operator Scheduling
 
-![Operator Scheduling](Dashboard-operator-scheduling.png)
+![Operator Scheduling Dashboard](Dashboard-operator-scheduling.png)
+
+### View Full Interactive Dashboard Showcase
+
+[Download Full Dashboard Presentation (PDF)](GreenTech_Executive_Presentation.pdf)
 
 ---
 
@@ -118,19 +208,47 @@ Relationships were established within Power BI to support dynamic filtering and 
 
 ---
 
+## Business Impact
+
+The analysis identified critical operational bottlenecks responsible for over half of production delays. By implementing the proposed recommendations, GreenTech Manufacturing could potentially:
+
+- Reduce production downtime.
+- Improve batch completion rates.
+- Increase operational efficiency.
+- Minimize scheduling conflicts.
+- Enhance workforce productivity.
+- Improve data-driven decision-making across the organization.
+
+---
+
+## Key Learnings
+
+Through this project, I strengthened my ability to:
+
+- Develop end-to-end business intelligence solutions.
+- Build interactive Power BI dashboards.
+- Write advanced SQL queries.
+- Perform operational and manufacturing analytics.
+- Translate business requirements into data solutions.
+- Present analytical findings to stakeholders.
+- Develop actionable business recommendations.
+
+---
+
 ## Skills Demonstrated
 
 - SQL Querying
 - PostgreSQL
 - Power BI
 - DAX
+- Power Query
 - Data Modeling
 - Dashboard Design
 - Business Intelligence
-- Data Storytelling
-- Stakeholder Reporting
 - Manufacturing Analytics
 - Data Visualization
+- Data Storytelling
+- Stakeholder Reporting
 
 ---
 
@@ -142,7 +260,9 @@ Relationships were established within Power BI to support dynamic filtering and 
 | GreenTech_SQL_Scripts.sql | SQL scripts used for analysis |
 | GreenTech_Final_Report.docx | Final business report |
 | GreenTech_Executive_Presentation.pdf | Executive presentation |
-| Dashboard Images | Dashboard screenshots |
+| dashboard-overview.png | Downtime dashboard |
+| dashboard-duration-analysis.png | Duration analysis dashboard |
+| dashboard-operator-scheduling.png | Operator scheduling dashboard |
 | README.md | Project documentation |
 
 ---
@@ -151,8 +271,12 @@ Relationships were established within Power BI to support dynamic filtering and 
 
 **Sarah Abhulimhen**
 
+---
+
 ## Connect With Me
 
-- [LinkedIn](https://www.linkedin.com/in/sarah-abhulimhen-7353213ba/)
-- [GitHub Portfolio](https://github.com/Sarah-Abhulimhen)
+- LinkedIn: https://www.linkedin.com/in/sarah-abhulimhen-7353213ba/
+- GitHub Portfolio: https://github.com/Sarah-Abhulimhen
 - Email: sarahabhulimhen9@gmail.com
+
+© 2026 Sarah Abhulimhen
